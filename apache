@@ -1,0 +1,7 @@
+yum install httpd
+systemctl enable httpd
+systemctl status httpd
+systemctl start httpd
+systemctl status httpd
+yum install mod_ssl
+systemctl restart httpd
