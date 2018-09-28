@@ -5,3 +5,4 @@ systemctl start httpd
 systemctl status httpd
 yum install mod_ssl
 systemctl restart httpd
+sed -i 's/^/#/g' /etc/httpd/conf.d/welcome.conf
