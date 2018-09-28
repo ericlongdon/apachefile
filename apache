@@ -6,3 +6,5 @@ systemctl status httpd
 yum install mod_ssl
 systemctl restart httpd
 sed -i 's/^/#/g' /etc/httpd/conf.d/welcome.conf
+vim /var/www/html/index.html
+echo "<html><body<h1>hi there</h1></body></html>" > /var/www/html/index.html
